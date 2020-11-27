@@ -1,4 +1,13 @@
    #!/bin/bash
+#Write a shell script that prints the usual date output by default, but which can also be
+#passed options for printing just the time, just day-month-year, or just the day of the
+#week
+#dt [-t | -d | -y ]
+#dt : shows normal date-time
+#dt -t : shows only the time
+#dt -d : shows only the DOW (day of week)
+#dt -y : shows only the year
+#---------------------------------------------------------------------------------------------
    date ;echo
    while :
    do
